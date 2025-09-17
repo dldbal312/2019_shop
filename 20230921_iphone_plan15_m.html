@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<head>
+<title>M</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+
+<link rel="stylesheet" href="http://shop.kt.com/common/mobile/css/jquery.mobile.custom.structure.css">
+<link rel="stylesheet" href="http://shop.kt.com/common/mobile/kt_css/KT_0.common.css">
+<link rel="stylesheet" href="http://shop.kt.com/common/mobile/kt_css/KT_0.shopLayer.css">
+<link rel="stylesheet" href="https://m.shop.kt.com:444/common/mobile/olleh2.0/js/jquery-css/bxslider.css">
+<script src="http://shop.kt.com/common/mobile/js/jquery-2.1.4.min.js"></script>
+<script src="http://shop.kt.com/common/mobile/js/jqueryMobileAddEvent.js"></script>
+<script src="http://shop.kt.com/common/mobile/js/jquery.mobile.custom.min.js"></script>
+<script src="http://shop.kt.com/common/mobile/olleh2.0/js/lib/jquery-ui.js"></script>
+<script src="http://shop.kt.com/common/mobile/olleh2.0/js/plugin/jquery-migrate-1.3.0.min.js"></script>
+<script src="http://shop.kt.com/common/mobile/olleh2.0/js/plugin/jquery.bpopup.min.js"></script>
+<script src="https://log.onmas.kt.com/js/mlogCollect_shop.js"></script>
+<script src="https://log.onmas.kt.com/js/mtargetOffer_shop.js"></script>
+<script src="http://shop.kt.com/common/mApp/js/menuTrack.js"></script>
+<script src="http://shop.kt.com/common/mApp/js/commonUI.js"></script>
+<script type="text/javascript" src="https://cfm.kt.com/js/v2/plugin/jquery.bxslider.js" charset="utf-8"></script>
+<script src="http://shop.kt.com/common/mobile/js/shopLayer.js"></script>
+
+<script>
+var menuCode = '';
+var isApp  = false;
+var cTitleVal ='';
+var cTitleVal ='';
+</script>
+</head>
+
+<div class="evtPlan" id="evtPlan">
+    <div class="evtInfo">
+                    </div>
+
+
+
+
+
+
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<style type="text/css">
+.evtPlan{padding-bottom:0;}
+.evtPlan .evtInfo{display:none;}
+.m-plan-section .inner {position:relative;}
+.m-plan-section img {width:100%;}
+[class*="m-plan-article"] a{position:absolute;color:transparent;background:transparent;border:none;padding:0;}
+[class*="m-plan-article-bn"] a, [class*="m-plan-article-tab"] a{position:static;}
+.m-event-notice {background-color:#fff;padding:25px 0;}
+.m-event-notice h5 {font-size:20px;color:#444;margin-bottom:15px;text-align:center;line-height:20px;}
+.m-event-notice h5 img {width:20px;}
+.m-event-notice .evt_notice_tit {background:#e9e9e9;padding-right:15px;border-top:1px solid #666;}
+.m-event-notice .evt_notice_tit a {position:static;display:block;padding:15px 25px 15px 15px;font-weight:bold;font-size:15px;color:#333;background:url("https://image.shop.kt.com/upload/editor/display/pc_event1152_gals105G_open.gif") no-repeat right center;background-size:20px auto;line-height:20px;}
+.m-event-notice .evt_notice_tit a.current {background:url("https://image.shop.kt.com/upload/editor/display/pc_event1152_gals105G_close.gif") no-repeat right center;background-size:20px auto;}
+.m-event-notice .evt_notice_list {margin:20px 20px 0 25px;}
+.m-event-notice .evt_notice_list li {position:relative;font-family:"Noto Sans Light";font-size:15px;color:#333;}
+.m-event-notice .evt_notice_cont {padding:15px 15px 25px 15px;display:none;}
+.m-event-notice .evt_notice_txt > li {position:relative;margin-top:6px;padding-left:10px;}
+.m-event-notice .evt_notice_txt > li:first-child {margin-top:0;}
+.m-event-notice .evt_notice_txt > li::before {content:"·";position:absolute;top:-4px;left:0;font-weight:800;font-size:20px;color:#333;}
+.m-event-notice .evt_notice_sublist {margin:5px 0 10px 0;}
+.m-event-notice .evt_notice_sublist > li {position:relative;padding-left:10px;}
+.m-event-notice .evt_notice_sublist > li:after {content:"-";position:absolute;top:-2px;left:0;z-index:10;}
+.m-plan-article-sticky {position:absolute;left:0;transform:translate3d(0, 0, 0);z-index:10;width:100%;transition:transform 0.5s}
+.m-plan-article-sticky.fixed{position:fixed;top:1.8vw !important;transform:translate3d(0, 13vw, 0);}
+.m-plan-article-sticky.fixed.endhide{transform:translate3d(0, -13vw, 0);}
+.m-plan-article-visual{overflow:hidden;background:#000000}
+.m-plan-article-01{background:#232323}
+.m-plan-article-02{background:#eeeeee}
+.m-plan-article-03{background:#232323}
+.m-plan-article-04{background:#fff;overflow:hidden;}
+.m-plan-article-05{background:#dde7f2}
+.m-plan-article-06{background:#232323}
+.m-plan-article-07{background:#d9d6e9}
+.m-plan-article-03 .link1{left:23%;top:92.8%;width:53.37%;height:4%;}
+.m-plan-article-04 .link1{left:23%;top:85.79%;width:53.37%;height:7.28%;z-index:10}
+.m-plan-article-05 .link1{left:23%;top:67.79%;width:53.37%;height:10.28%;}
+.m-plan-article-06 .link1{left:23%;top:80.5%;width:53.83%;height:6.64%;}
+.m-plan-article-07 .link1{left:17%;top:68%;width:45.83%;height:8.64%;}
+.m-plan-article-07 .link2{left:17%;top:88%;width:36.83%;height:4.64%;}
+
+.group_flex .iPhone_group{position:relative;padding-left:51.33vw;padding-bottom:15.60vw;margin-bottom:13.33vw;box-sizing:border-box;}
+.group_flex .iPhone_group.last{margin-bottom:0;}
+.group_flex .btn_auto_ga{width:28.93vw;height:9.07vw;bottom:0;background-color:#43e6df !important;border-radius:0.53vw;text-align:center;color:#000;font-size:4.00vw;line-height:9.07vw;}
+.colorChip > [class*=imgReplace]{position:absolute;top:0;width:auto;right:55.20vw;height:40.67vw;animation:showfade 0.4s ease;z-index:5;}
+.colorChip > [class*=imgReplace].imgReplace2{z-index:1;}
+.colorChip[class*='iphone'][class*='max'] [class*=imgReplace], .colorChip[class*='iphone'][class*='plus'] [class*=imgReplace]{height:46.27vw;}
+.colorChip .ph_tit{display:block;color:#fff;font-size:5.40vw;letter-spacing:0;margin-bottom:2.13vw;letter-spacing:-1.6px;font-weight:normal;}
+.colorChip .ph_info, .colorChip .ph_color{color:#ccc;font-size:3.47vw;line-height:5.60vw;letter-spacing:0;margin-bottom:2.67vw;}
+.colorChip .ph_color > .colortxt{color:inherit;}
+.colorChip .colorList{display:flex;align-items:center;flex-wrap:wrap;}
+.colorChip .colorList > li{width:30px;height:30px;text-align:center;}
+.colorChip .colorList .color{position:relative;width:5.33vw;height:5.33vw;display:inline-block;color:transparent;border-radius:100px;font-size:1px;box-sizing:content-box;}
+.colorChip .colorList .color:before, .colorChip .colorList .color:after{transition:all 0.1s;content:"";position:absolute;top:50%;left:50%;transform:translate3d(-50%,-50%,0);border-radius:100px;}
+.colorChip .colorList .color:before{width:5px;height:5px;opacity:0;}
+.colorChip .colorList .on .color:before{width:4.80vw;height:4.80vw;border:1px solid #282828;opacity:1;z-index:1;}
+.colorChip .colorList .on .color:after{width:5.33vw;height:5.33vw;border:3px solid #fff;box-sizing:content-box;}
+.colorChip .colorList .color > .txt{display:block;color:inherit;overflow:hidden;width:1px;height:1px;}
+.colorChip[class*='iphone'] .color1{background-color:#d5dde0;}
+.colorChip[class*='iphone'] .color2{background-color:#ecd4d5;}
+.colorChip[class*='iphone'] .color3{background-color:#eae5c9;}
+.colorChip[class*='iphone'] .color4{background-color:#d5ddd0;}
+.colorChip[class*='iphone'] .color5{background-color:#494d50;}
+.colorChip[class*='iphone'][class*='pro'] .color1{background-color:#bbb5a9;}
+.colorChip[class*='iphone'][class*='pro'] .color2{background-color:#484f5f;}
+.colorChip[class*='iphone'][class*='pro'] .color3{background-color:#f3f2ed;}
+.colorChip[class*='iphone'][class*='pro'] .color4{background-color:#4a4b4d;}
+
+.m-plan-article-cnt{text-align:center;}
+.m-plan-article-visual .tit01{margin:13.33vw 0 0;}
+.m-plan-article-visual .tit02{margin:3.73vw 0 6.67vw;position:relative;z-index:5;display:block;width:100%;font-size:3.73vw;color:#e9d69e;font-weight:600;text-align:center;animation:txtExpand 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;animation-delay:0.6s;letter-spacing:0.4px;}
+.m-plan-article-visual .tit03 .tit{display:inline-block;width:12.50vw;text-align:right;padding-right:1.87vw;color:#a1a0a0;font-weight:600;line-height:4.27vw;font-size:2.40vw;}
+.m-plan-article-visual .tit03 .txt{display:inline-block;width:51.00vw;text-align:left;color:#fff;letter-spacing:0.4px;font-weight:400;line-height:4.27vw;font-size:2.40vw;}
+.m-plan-article-visual .txt01{position:relative;margin:12.00vw 0 0;animation: visualblur 3s;z-index:2;}
+.m-plan-article-visual .vis01{animation: visualimg 4s;z-index:1;}
+.m-plan-article-04 .tit01{position:absolute;top:0;left:0;z-index:2}
+.m-plan-article-04 .vis01{margin:0 0 0;filter:blur(100px);}
+.m-plan-article-04 .vis01.aos-animate{filter:blur(0);}
+.m-plan-article-04 .txt01{position:absolute;z-index:2;bottom:10vw;left:0;}
+.m-plan-article-05 .tit01{position:absolute;z-index:2;top:0;left:0;}
+.m-plan-article-07 .m-plan-article-chk{position:absolute;top:0;;}
+.m-plan-article-07 .check{position:absolute;display:block;border:2px solid #634dd6;width:6.67vw;height:6.67vw;border-radius:100px;box-sizing:border-box;z-index:8}
+.m-plan-article-07 .check:before{position:absolute;transition:all 0.3s;content:"";top:6.27vw;width:6.80vw;height:0;background:url(https://image.shop.kt.com/upload/editor/display/m_evt2293_iphone15_check_230915.png) no-repeat 50% 50% / 100% auto;}
+.m-plan-article-07 .check.ck01{left:5.6vw;top:57.5vw;}
+.m-plan-article-07 .check.ck02{left:5.6vw;top:76.5vw;}
+.m-plan-article-07 .check.ck03{left:5.6vw;top:96.5vw;}
+.m-plan-article-07 .check.ck04{left:5.6vw;top:116.5vw;}
+.m-plan-article-07 .check.ck05{left:5.6vw;top:135.5vw;}
+.m-plan-article-07 .check.ck06{left:5.6vw;top:177.5vw;}
+.m-plan-article-07 .aos-animate .check:before{opacity:1;position:absolute;width:6.67vw;height:6.67vw;left:-0.2vw;top:-1.2vw;}
+.m-plan-article-07 .aos-animate .check.ck01:before{transition-delay:0.2s;}
+.m-plan-article-07 .aos-animate .check.ck02:before{transition-delay:0.4s;}
+.m-plan-article-07 .aos-animate .check.ck03:before{transition-delay:0.6s;}
+.m-plan-article-07 .aos-animate .check.ck04:before{transition-delay:0.8s;}
+.m-plan-article-07 .aos-animate .check.ck05:before{transition-delay:1s;}
+.m-plan-article-07 .aos-animate .check.ck06:before{transition-delay:1.2s;}
+
+.m-plan-article-sticky .inner{display:flex;width:116vw;margin-left:-8vw;}
+.m-plan-article-sticky .inner a{position:static;font-size:3.47vw;color:#000;overflow:visible;line-height:11.20vw;}
+.m-plan-article-sticky .inner a:after{position:relative;display:inline-block;width:3.47vw;height:3.47vw;margin:-1vw 0 0 1.5vw;vertical-align:middle;content:"";background:url(https://image.shop.kt.com/upload/editor/display/m_evt2293_iphone15_sticky_icon.png) no-repeat 50% 50% / 100% auto;}
+.m-plan-article-sticky .inner:after{position:absolute;content:"";left:13.33vw;right:13.33vw;height:11.20vw;box-sizing:border-box;background:#fff;box-shadow:2px 2px 5px rgba(0,0,0,0.3);border-radius:8px;}
+
+.m-plan-article-sticky .swiper-slide{text-align:center;}
+.m-plan-article-sticky .swiper-slide.swiper-slide-next a:after{display:none;}
+.m-plan-article-sticky .swiper-slide.swiper-slide-next a{background:linear-gradient(90deg, #000 0%, transparent 70%);background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent;}
+.m-plan-article-sticky .swiper-slide.swiper-slide-prev a{background:linear-gradient(260deg, #000 0%, transparent 70%);background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent;}
+.m-plan-article-sticky .swiper-button-next{right:13vw;background:url(https://image.shop.kt.com/upload/editor/display/m_evt2293_iphone15_arrow_r.png) no-repeat 50% 55% / 5vw auto;}
+.m-plan-article-sticky .swiper-button-prev{left:13vw;background:url(https://image.shop.kt.com/upload/editor/display/m_evt2293_iphone15_arrow_l.png) no-repeat 50% 55% / 5vw auto;}
+.m-plan-article-sticky .swiper-button-next:after{color:transparent;}
+.m-plan-article-sticky .swiper-button-prev:after{color:transparent;}
+.m-plan-article-tab{background-color:#000;}
+.m-plan-article-tab .inner{display:flex;justify-content: space-around;}
+.m-plan-article-tab a{display:block;width:100%;}
+.m-plan-article-bn-kakao{background-color:#fae100;}
+
+@keyframes visualblur {
+  0% {filter:blur(80px);}
+  100% {filter:blur(0);}
+}
+@keyframes visualimg {
+  0% {filter:blur(80px);transform:translateY(300px);}
+  100% {filter:blur(0);transform:translateY(0);}
+}
+@keyframes showfade {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+@keyframes hidefade {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+@keyframes stickyIcon {
+  0% {transform:translate3d(0, 0, 0);}
+  100% {transform:translate3d(8px, 0, 0);}
+}
+@keyframes gradationTxt {
+  0%{background-position:200% center}
+  100%{background-position:200% auto;}
+}
+@keyframes txtExpand {
+  0% {letter-spacing:-0.5em;opacity: 0;}
+  40% {opacity: 0.6;}
+  100% {opacity: 1;}
+}
+</style>
+<div class="m-plan-section">
+    <div class="m-plan-article-tab">
+        <div class="inner">
+            <a href="https://m.shop.kt.com:444/m/display/olhsPlan.do?plnDispNo=2293"><img src="https://image.shop.kt.com/upload/editor/display/m_evt2293_iphone15_tab01.png" class="tab01"></a>
+            <a href="https://m.shop.kt.com:444/m/display/olhsPlan.do?plnDispNo=2295"><img src="https://image.shop.kt.com/upload/editor/display/m_evt2293_iphone15_tab02.png" class="tab02"></a>
+        </div>
+    </div>
+    <div class="m-plan-article-visual">
+        <div class="inner">
+            <div class="m-plan-article-cnt">
+                <img src="https://image.shop.kt.com/upload/editor/display/m_evt2293_iphone15_vis_tit01_230921.png" class="tit01" data-aos="fade-up" data-aos-delay="200"><br>
+                <div class="tit02">10월 6일 사전예약.</div>
+                <div class="tit03" data-aos="fade-up" data-aos-delay="800">
+                    <p><span class="tit">사전예약</span><span class="txt">10월 6일(금) 0시 ~ 10월 12일(목) 24시</span></p>
+                    <p><span class="tit">배송</span><span class="txt">10월 13일(금) 0시부터 순차 수령</span></p>
+                </div>
+                <img src="https://image.shop.kt.com/upload/editor/display/m_evt2293_iphone15_txt_230915.png" class="txt01">
+                <img src="https://image.shop.kt.com/upload/editor/display/m_evt2293_iphone15_vis_230915.png" class="vis01">
+            </div>
+        </div>
+    </div>
+
+    <div class="m-plan-article-01" id="colorchip">
+        <div class="inner">
+            <div class="m-plan-article-cnt">
+                <img src="https://image.shop.kt.com/upload/editor/display/m_evt2293_iphone15_cont01_tit01_230921.png" class="tit01" data-aos="fade-up" data-aos-delay="0" data-aos-duration="20" data-aos-easing="ease-in-out">
+                <img src="https://image.shop.kt.com/upload/editor/display/m_evt2293_iphone15_cont01_tit02.png" class="tit02" data-aos="fade-up" data-aos-delay="300" data-aos-duration="20" data-aos-easing="ease-in-out">
+            </div>
+            <div class="blind">
+            </div>
+            <div class="group_flex" data-aos="fade-up" data-aos-delay="400" data-aos-duration="40" data-aos-easing="ease-in-out">
+                <div class="iPhone_group">            
+                    <div class="colorChip iphone15">
+                        <img src="https://image.shop.kt.com/upload/editor/display/pc_iPhone15_color1_1.png" class="imgReplace">
+                        <strong class="ph_tit">iPhone 15</strong>
+                        <p class="ph_info">15.5cm 디스플레이(6.1인치)<br>128GB · 256GB · 512GB</p>
+                        <p class="ph_color">색상 : <span class="colortxt"></span></p>
+                        <ul class="colorList">
+                            <li class="on"><button type="button" class="color color1"><span class="txt">블루</span></button></li>
+                            <li><button type="button" class="color color2"><span class="txt">핑크</span></button></li>
+                            <li><button type="button" class="color color3"><span class="txt">옐로</span></button></li>
+                            <li><button type="button" class="color color4"><span class="txt">그린</span></button></li>
+                            <li><button type="button" class="color color5"><span class="txt">블랙</span></button></li>
+                        </ul>
+                    </div>
+
+
+                    <a href="https://shop.kt.com/m/display/vorvertragNoticePopView.do?prodNo=WL00067913" class="btn_auto_ga link1 popwin" target="_blank" title="새창열림" data-width="800" data-height="700">iPhone 15_알림 신청</a>
+                    <!-- <a href="" class="btn_auto_ga link1">iPhone 14 주문하기</a> -->
+                    <!-- <a href="" class="btn_auto_ga link2">iPhone 14 자세히보기</a -->
+                </div>
+                
+                <div class="iPhone_group">
+                    <div class="colorChip iphone15plus">
+                        <img src="https://image.shop.kt.com/upload/editor/display/pc_iPhone15_color2_2.png" class="imgReplace">
+                        <strong class="ph_tit">iPhone 15 Plus</strong>
+                        <p class="ph_info">17.0cm 디스플레이(6.7인치) <br>128GB · 256GB · 512GB</p>
+                        <p class="ph_color">색상 : <span class="colortxt"></span></p>
+                        <ul class="colorList">
+                            <li><button type="button" class="color color1"><span class="txt">블루</span></button></li>
+                            <li class="on"><button type="button" class="color color2"><span class="txt">핑크</span></button></li>
+                            <li><button type="button" class="color color3"><span class="txt">옐로</span></button></li>
+                            <li><button type="button" class="color color4"><span class="txt">그린</span></button></li>
+                            <li><button type="button" class="color color5"><span class="txt">블랙</span></button></li>
+                        </ul>
+                    </div>
+                    <a href="https://shop.kt.com/m/display/vorvertragNoticePopView.do?prodNo=WL00067915" class="btn_auto_ga link2 popwin" target="_blank" title="새창열림" data-width="800" data-height="700">iPhone 15 Plus_알림 신청</a>
+                    <!-- <a href="" class="btn_auto_ga link3">iPhone 14 Plus 주문하기</a> -->
+                    <!-- <a href="" class="btn_auto_ga link4">iPhone 14 Plus 자세히보기</a> -->
+                </div>
+                
+                <div class="iPhone_group">
+                    <div class="colorChip iphone15pro">
+                        <strong class="ph_tit">iPhone 15 Pro</strong>
+                        <p class="ph_info">15.5cm 디스플레이(6.1인치) <br>128GB · 256GB<br>512GB · 1TB</p>
+                        <p class="ph_color">색상 : <span class="colortxt"></span></p>
+                        <img src="https://image.shop.kt.com/upload/editor/display/pc_iPhone15_color3_1.png" class="imgReplace">
+                        <ul class="colorList">
+                            <li class="on"><button type="button" class="color color1"><span class="txt">내추럴 티타늄</span></button></li>
+                            <li><button type="button" class="color color2"><span class="txt">블루 티타늄</span></button></li>
+                            <li><button type="button" class="color color3"><span class="txt">화이트 티타늄</span></button></li>
+                            <li><button type="button" class="color color4"><span class="txt">블랙 티타늄</span></button></li>
+                        </ul>
+                    </div>
+                    <a href="https://shop.kt.com/m/display/vorvertragNoticePopView.do?prodNo=WL00067918" class="btn_auto_ga link3 popwin" target="_blank" title="새창열림" data-width="800" data-height="700">iPhone 15 Pro_알림 신청</a>
+                    <!-- <a href="" class="btn_auto_ga link5">iPhone 14 Pro 주문하기</a> -->
+                    <!-- <a href="" class="btn_auto_ga link6">iPhone 14 Pro 자세히보기</a> -->
+                </div>
+                
+                <div class="iPhone_group last">
+                    <div class="colorChip iphone15promax">
+                        <strong class="ph_tit">iPhone 15 Pro Max</strong>
+                        <p class="ph_info">17.0cm 디스플레이(6.7인치)<br>256GB · 512GB · 1TB</p>
+                        <p class="ph_color">색상 : <span class="colortxt"></span></p>
+                        <img src="https://image.shop.kt.com/upload/editor/display/pc_iPhone15_color4_2.png" class="imgReplace">
+                        <ul class="colorList">
+                            <li><button type="button" class="color color1"><span class="txt">내추럴 티타늄</span></button></li>
+                            <li class="on"><button type="button" class="color color2"><span class="txt">블루 티타늄</span></button></li>
+                            <li><button type="button" class="color color3"><span class="txt">화이트 티타늄</span></button></li>
+                            <li><button type="button" class="color color4"><span class="txt">블랙 티타늄</span></button></li>
+                        </ul>
+                    </div>
+                    <a href="https://shop.kt.com/m/display/vorvertragNoticePopView.do?prodNo=WL00067920" class="btn_auto_ga link4 popwin" target="_blank" title="새창열림" data-width="800" data-height="700">iPhone 15 Ultra_알림 신청</a>
+                    <!-- <a href="" class="btn_auto_ga link7">iPhone 14 Pro Max 주문하기</a> -->
+                    <!-- <a href="" class="btn_auto_ga link8">iPhone 14 Pro Max 자세히보기</a> -->
+                </div>
+                <img src="https://image.shop.kt.com/upload/editor/display/m_evt2293_iphone15_cont01_txt01.png" class="txt01">
+            </div>
+
+            
+        </div>
+    </div>
+
+    <div class="m-plan-article-02" id="benefit01-area">
+        <div class="inner">
+            <div class="m-plan-article-cnt">
+                <img src="https://image.shop.kt.com/upload/editor/display/m_evt2293_iphone15_cont02_tit01.png" class="tit01" data-aos="fade-up" data-aos-delay="0" data-aos-duration="40" data-aos-easing="ease-in-out">
+                <img src="https://image.shop.kt.com/upload/editor/display/m_evt2293_iphone15_cont02_vis01.png" class="vis01">
+                <img src="https://image.shop.kt.com/upload/editor/display/m_evt2293_iphone15_cont02_vis02.png" class="vis02">
+                <img src="https://image.shop.kt.com/upload/editor/display/m_evt2293_iphone15_cont02_vis03.png" class="vis03">
+                <img src="https://image.shop.kt.com/upload/editor/display/m_evt2293_iphone15_cont02_vis04_230912.png" class="vis04">
+                <img src="https://image.shop.kt.com/upload/editor/display/m_evt2293_iphone15_cont02_vis05.png" class="vis05">
+                <img src="https://image.shop.kt.com/upload/editor/display/m_evt2293_iphone15_cont02_vis06.png" class="vis06">
+            </div>
+        </div>
+    </div>
+
+    <div class="m-plan-article-03" id="benefit02-area">
+        <div class="inner">
+            <div class="m-plan-article-cnt">
+                <img src="https://image.shop.kt.com/upload/editor/display/m_evt2293_iphone15_cont03_tit01_230912.png" class="tit01" data-aos="fade-up" data-aos-delay="0" data-aos-duration="40" data-aos-easing="ease-in-out">
+                <img src="https://image.shop.kt.com/upload/editor/display/m_evt2293_iphone15_cont03_vis01_230912.png" class="vis01">
+                <img src="https://image.shop.kt.com/upload/editor/display/m_evt2293_iphone15_cont03_vis02.png" class="vis02">
+                <img src="https://image.shop.kt.com/upload/editor/display/m_evt2293_iphone15_cont03_vis03.png" class="vis03">
+                <img src="https://image.shop.kt.com/upload/editor/display/m_evt2293_iphone15_cont03_txt01.png" class="txt01">
+            </div>
+            <a href="https://m.shop.kt.com:444/preorder/phoneMania.do" class="btn_auto_ga link1 popwin" target="_blank" title="새창열림" data-width="800" data-height="700">아이폰 매니아 인증하기</a>
+            <!--a href="void(0);" class="btn_auto_ga link1" onclick="alert('시스템 안정화 작업중입니다  잠시 후 다시 시도해주세요');return false;">아이폰 매니아 인증하기</a-->
+        </div>
+    </div>
+
+    <div class="m-plan-article-04" id="benefit03-area">
+        <div class="inner">
+            <div class="m-plan-article-cnt">
+                <img src="https://image.shop.kt.com/upload/editor/display/m_evt2293_iphone15_cont04_tit01_230912.png" class="tit01" data-aos="fade-up" data-aos-delay="0" data-aos-duration="40" data-aos-easing="ease-in-out">
+                <img src="https://image.shop.kt.com/upload/editor/display/m_evt2293_iphone15_cont04_vis01_230912.png" class="vis01" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="400" data-aos-easing="ease-in-out">
+            </div>
+            <a href="https://shop.kt.com/m/customer/survey.do?rscCd=35" class="btn_auto_ga link1 popwin" target="_blank" title="새창열림" data-width="1080" data-height="700">iPhone 찜하기</a>
+        </div>
+    </div>
+
+    <div class="m-plan-article-05" id="benefit04-area">
+        <div class="inner">
+            <div class="m-plan-article-cnt">
+                <img src="https://image.shop.kt.com/upload/editor/display/m_evt2293_iphone15_cont05_tit01_230912.png" class="tit01" data-aos="fade-up" data-aos-delay="0" data-aos-duration="40" data-aos-easing="ease-in-out">
+                <img src="https://image.shop.kt.com/upload/editor/display/m_evt2293_iphone15_cont05_vis01_230912.png" class="vis01" data-aos="fade-up" data-aos-delay="200" data-aos-duration="40" data-aos-easing="ease-in-out">
+            </div>
+            <a href="https://shop.kt.com/m/customer/survey.do?rscCd=34" class="btn_auto_ga link1 popwin" target="_blank" title="새창열림" data-width="1080" data-height="700">퀴즈 맞히고 쿠폰 받기</a>
+        </div>
+    </div>
+
+    <div class="m-plan-article-06" id="benefit05-area">
+        <div class="inner">
+            <div class="m-plan-article-cnt">
+                <img src="https://image.shop.kt.com/upload/editor/display/m_evt2293_iphone15_cont06_tit01.png" class="tit01" data-aos="fade-up" data-aos-delay="0" data-aos-duration="40" data-aos-easing="ease-in-out">
+                <img src="https://image.shop.kt.com/upload/editor/display/m_evt2293_iphone15_cont06_vis01.png" class="vis01" data-aos="fade-up" data-aos-delay="200" data-aos-duration="40" data-aos-easing="ease-in-out">
+            </div>
+            <a href="https://m.shop.kt.com:444/m/wire/orderTelCounselForm.do?prodNo=WR00067910" class="btn_auto_ga link1">인터넷 TV 가입 신청</a>
+        </div>
+    </div>
+
+    <div class="m-plan-article-07">
+        <div class="inner">
+            <div class="m-plan-article-cnt">
+                <img src="https://image.shop.kt.com/upload/editor/display/m_evt2293_iphone15_cont07_vis01_230915.png" class="vis01" data-aos="fade-up" data-aos-delay="200" data-aos-duration="40" data-aos-easing="ease-in-out">
+            </div>
+
+            <div class="m-plan-article-chk" data-aos="fade-up" data-aos-easing="ease-in-out">
+                <i class="check ck01" aria-hidden="true"></i>
+                <i class="check ck02" aria-hidden="true"></i>
+                <i class="check ck03" aria-hidden="true"></i>
+                <i class="check ck04" aria-hidden="true"></i>
+                <i class="check ck05" aria-hidden="true"></i>
+                <i class="check ck06" aria-hidden="true"></i>
+            </div>
+            <a href="https://pf.kakao.com/_XNLxeC" title="새창열림" target="_blank" class="btn_auto_ga link1">카카오톡채널추가</a>
+            <a href="https://m.product.kt.com/benefit/membership/mobile/card.html" class="btn_auto_ga link2">제휴카드 자세히 보기</a>
+        </div>
+    </div>
+
+    <div class="m-plan-article-sticky">
+        <div class="inner">
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><a href="#benefit01" class="innerLink">iPhone은 KT</a></div>
+                    <div class="swiper-slide"><a href="#benefit02" class="innerLink">나는 아이폰 매니아?</a></div>
+                    <div class="swiper-slide"><a href="#benefit03" class="innerLink">iPhone 찜하기</a></div>
+                    <div class="swiper-slide"><a href="#benefit04" class="innerLink">즉석 할인 쿠폰</a></div>
+                    <div class="swiper-slide"><a href="#benefit05" class="innerLink">254만원 할인 혜택</a></div>
+
+                    <!-- load시 영역을 위한 복사본  -->
+                    <div class="swiper-slide"><a href="#benefit01" class="innerLink">iPhone은 KT</a></div>
+                    <div class="swiper-slide"><a href="#benefit02" class="innerLink">나는 아이폰 매니아?</a></div>
+                    <div class="swiper-slide"><a href="#benefit03" class="innerLink">iPhone 찜하기</a></div>
+                    <div class="swiper-slide"><a href="#benefit04" class="innerLink">즉석 할인 쿠폰</a></div>
+                    <div class="swiper-slide"><a href="#benefit05" class="innerLink">254만원 할인 혜택</a></div>
+                    <!-- //load시 영역을 위한 복사본  -->
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </div>
+    <div class="m-event-notice">
+        <div class="inner">
+            <h5><img src="https://image.shop.kt.com/upload/editor/display/event_galS105G_0305_m_icon_note.png"> 꼭 확인하세요.</h5>
+            <ul class="evt_notice_list">
+                <li>
+                    <div class="evt_notice_tit"><a href="javascript:void(0)" title="내용열기">※ 이벤트 유의사항</a></div>
+                    <div class="evt_notice_cont">
+                        <ul class="evt_notice_txt">
+                            <li>본 행사는 당사 사정에 따라 별도 예고 없이 변경 또는 중단될 수 있습니다.</li>
+                            <li>KT 매장에 방문하여 서식지(신청서) 작성한 고객은 KT Shop의 모든 이벤트 대상에 포함되지 않습니다.</li>
+                            <li>iPhone 찜하기 이벤트는 사전예약/개통까지 완료한 고객 대상으로 최종 지급됩니다.</li>
+                            <li>iPhone 찜하기 이벤트 혜택은 제조사 요청으로 아이폰 1+1에서 CASETiFY 기프트카드로 변경되었습니다. 기존에 1+1 이벤트 응모하신 고객님은 CASETiFY 이벤트에 자동 응모됩니다.</li>
+                            <li>퀴즈 이벤트(즉시할인 5만원권)은 200분께 증정됩니다. (iPhone 15 사전예약 시 사용 가능)</li>
+                            <li>iPhone 254만원 할인 혜택은 가입신청 남기고 상담사 통해 ‘인터넷 에센스+지니TV 에센스’ 신규 가입 및 핸드폰 초이스 베이직 요금제 이상 사용 시 적용됩니다.</li>
+                            <li>이벤트 경품은 소진 시 다른 상품으로 대체될 수 있습니다.</li>
+                            <li>경품의 색상은 선택이 불가능하며, 랜덤으로 배송됩니다.</li>
+                            <li>개통 후 취소 시 사은품은 반납 하셔야 합니다.</li>
+                            <li>당첨 경품에 대한 제세공과금은 KT Shop에서 부담합니다.</li>
+                            <li>미납/회선 초과 등의 이유로 개통이 제한될 경우 고객센터에서 별도 연락 드립니다.</li>
+                            <li>배송된 단말은 미 개봉 상태일 경우 반품이 가능합니다.</li>
+                            <li>동일 회선 번호로 중복 주문 건은 1회선만 배송됩니다.</li>
+                            <li>위 이벤트는 Apple과는 무관하며, 어떠한 식으로든 관여하지 않습니다.</li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <div class="evt_notice_tit"><a href="javascript:void(0)" title="내용열기">※ 아이폰 매니아 이벤트 안내 </a></div>
+                    <div class="evt_notice_cont">
+                        <ul class="evt_notice_txt">
+                            <li>아이폰 매니아 모든 혜택은 아이폰 매니아 여부 확인(인증완료)을 필수로 진행해야 대상자로 선정됩니다.</li>
+                            <li>VIP 혜택 01은 사전예약 신청서 작성 기준 선착순 500명 대상으로, 개통 완료 확인 후 지급됩니다.</li>
+                            <li>VIP 혜택 02, 03은 매니아 대상자분들께 별도 발송되는 문자 링크에 “혜택 신청 완료”한 고객 대상으로 진행되며, 신청서 작성을 사전예약 1일차에 완료하셔야 최종 대상으로 선정됩니다.</li>
+                            <li>VIP 혜택 02 대상자이오나 제조사 사정으로 인한 배송 지연이 발생할 경우, 액세서리쿠폰 5만원권을보상해드립니다.</li>
+                            <li>VIP 혜택 03은 사전예약 번호 발급을 대신해드리는 절차이며, 신청서 작성은 고객님께서 사전예약 기간 안에만 작성하시면 됩니다.</li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<input type="hidden" id="plnDispNo" value="2293">
+<input type="hidden" id="plnSttsNm" value="iPhone15기획전_2293">
+<script>
+//컬러칩
+function colorChipImgRep(){
+    var nextImg = '';
+    $('.colorChip').each(function() {
+        var colorTxt = $(this).find('.colorList li.on').text();
+        var imgDefaultAlt = $(this).find('.ph_tit').text() + ' ' + colorTxt;
+
+        $(this).append('<img class="imgReplace2" aria-hidden="true">');
+        $(this).find('.colortxt').text(colorTxt);
+        $(this).find('.imgReplace').attr('alt', imgDefaultAlt);
+
+        $(this).find('li').on('click', function(){
+            var idx = $(this).index();
+            var img = $(this).closest('.colorList').siblings('.imgReplace');
+            var imgSrc = img.attr('src').split('_');
+            var $colrChip = $(this).closest('.colorChip');
+            var colorTxt = $(this).find('.color').text()
+            
+            $colrChip.find('.imgReplace2').attr('src', img.attr('src'));
+            $colrChip.find('.colortxt').text(colorTxt);
+            img.attr({
+                'src' :img.attr('src').replace(imgSrc[3], (idx+1)+'.png'),
+                'alt' :$colrChip.find('.ph_tit').text() + ' ' + colorTxt
+            });
+
+            $(this).addClass('on').siblings('li').removeClass('on');
+            $colrChip.find('img').toggleClass('effect');
+            $colrChip.addClass('on').siblings('.colorChip').removeClass('on');
+        });
+    });
+};
+
+function scrollFix(){
+    //스크롤 애니메이션 
+    $(window).scroll(function(){
+        var scrollTop = $(this).scrollTop();
+        var innerHeight = $(this).innerHeight();
+        var scrollHeight = $('body').prop('scrollHeight');
+        var stickyObj = $('.m-plan-article-sticky').outerHeight();
+
+        if ($('.m-plan-article-02').offset().top - $('#mCfmClGnb').outerHeight() - stickyObj < scrollTop){
+            $(".m-plan-article-sticky").addClass('fixed');
+        }else{
+            $(".m-plan-article-sticky").removeClass('fixed');
+        } 
+        if ($('.m-event-notice').offset().top < scrollTop){
+            $('.m-plan-article-sticky').addClass('endhide');
+        }else{
+            $('.m-plan-article-sticky').removeClass('endhide');
+        }
+    });
+};
+
+var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 3, //effect auto
+    centeredSlides: true,
+    loop: true,
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+  });
+
+function loadSlideTo(sliderNum) {
+    swiper.slideTo(sliderNum, 1000, false)
+};
+$(document).ready(function(){
+    colorChipImgRep();
+    scrollFix()
+    AOS.init();
+
+    var stickyTop = $('.m-plan-article-02').offset().top - ($('.m-plan-article-sticky').height() / 2) - ($('#mCfmClGnb').height()) - $('.login-sbox').height();
+    $('.m-plan-article-sticky').css('top', stickyTop);
+
+    $(".innerLink").on("click",function(e){
+        e.preventDefault();
+        var stickyObj = $('.m-plan-article-sticky').outerHeight();
+        var _id = $(this).attr("href");
+        var _top =  $(_id+"-area").offset().top;
+        $("html, body").animate({scrollTop: _top - 52 - (stickyObj / 2)}, 400);
+    });
+    function targetMove() {
+        var _start = location.href.indexOf("#");
+        var _id = location.href.substring(_start);
+        var stickyObj = $('.m-plan-article-sticky').outerHeight();
+
+        if(_start > 0 && $(_id+"-area").length){
+            var _top =  $(_id+"-area").offset().top - $("#mCfmClGnb").height() - (stickyObj) / 2 + 14;
+
+            $("html, body").animate({scrollTop:_top}, 400);
+     
+            switch (_id) {
+                case '#benefit01':
+                    loadSlideTo('3');
+                    break;
+                case '#benefit02':
+                    loadSlideTo('4');
+                    break;
+                case '#benefit03':
+                    loadSlideTo('5');
+                    break;
+                case '#benefit04':
+                    loadSlideTo('6');
+                    break;
+                default:
+                    loadSlideTo('7');
+            }
+        }
+    }
+    $(window).on("load",targetMove);
+
+    // 유의사항 toggle
+    $('.evt_notice_tit a').on('click', function(e){
+        e.preventDefault();
+        var evtNoticeCont = $(this).parent().next();
+        if ( !$(this).hasClass('current') ) {
+            $(this).addClass('current').attr('title','내용닫기');
+            $(evtNoticeCont).slideDown();
+        } else {
+            $(this).removeClass('current').attr('title','내용열기');
+            $(evtNoticeCont).slideUp();
+        }
+    });
+});
+
+
+//통계 자동화
+function autoGaPlan(parentClass){
+  var parentClass = (parentClass == undefined) ? '' :parentClass + ' ';//load배너의 경우 > 부모class지정  (현재 배너 load에 사용되고 있음)
+  $(parentClass + '.btn_auto_ga').each(function(){
+        var statCdTxt = $('#plnSttsNm').val().replace(/(\s*)/g, "");
+        var valResult = $(this).text().replace(/(\s*)/g, "");//통계용텍스트받아오기
+        var txtOnly = $(this).text().split('_').reverse()[0];//버튼 안쪽 텍스트받아오고 대체텍스트만 남기기
+        var innerHtml = $(this).html().split('_').reverse()[0] //버튼 안쪽 html 받아오기 대체텍스트만 남기기
+        var onclickDefault = $(this).attr('onclick');
+
+        onclickDefault == undefined ? onclickDefault = '' :onclickDefault = onclickDefault + ';';
+        
+        if($(this).find('img').length > 0){ 
+            //img가 있는 경우(배너) :blind태그에서 통계 받아오기
+            $(this).find('.blind').text(txtOnly) ; 
+        }else{
+            //img가 없는경우
+            if($(this).find('.blind').length > 0){
+                //a > .blind 안에 텍스트가 _로 나눠진경우
+                var blindSplit = $(this).find('.blind').text().split('_');
+                if(blindSplit.length > 1){
+                    $(this).find('.blind').text(blindSplit.reverse()[0])
+                }
+            }else{
+                //img, .blind 없고 안에 인라인 태그가 들어 있는경우 (strong, em, span, br 등)
+                $(this).html(innerHtml)
+            };
+        };
+        
+        $(this).attr("onclick", onclickDefault + "gaEventTracker(true, '샵_기획전', '샵_기획전_" + statCdTxt + "', '" + valResult + "');trackClicks('Shop_기획전','^Shop_기획전^" + statCdTxt + "^" + valResult + "');")
+
+        /*if(this.href.match('orderTelCounselForm.do')){
+            $(this).addClass('goTelOrderCounsel').attr({
+                'plndispyn' :'Y',
+                'pageprodno' :this.href.split('=')[1],
+                'inpagename' :'샵_기획전_' + statCdTxt + '_' + valResult,
+                'title' :'새창열림'
+            })
+        };*/
+    });
+};
+autoGaPlan()
+</script>
